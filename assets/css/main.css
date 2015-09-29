@@ -1,7 +1,11 @@
 body {
-	background-color: #A9A9A9;
+	background-color: #00FF7F;
+}
+h1 {
+	text-align: center;
 }
 #Perfil{
 	width: 30%;
 	height:30%;
+	position: relative, center;
 }
