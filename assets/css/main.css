@@ -1,11 +1,4 @@
 body {
 	background-color: #00FF7F;
 }
-h1 {
-	text-align: center;
-}
-#Perfil{
-	width: 30%;
-	height:30%;
-	position: relative, center;
-}
+#nav { width: 960px; background: #fff;}
