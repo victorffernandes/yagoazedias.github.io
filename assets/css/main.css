@@ -1,13 +1,64 @@
-body {
+body 
+{
 	background-color: #00FF7F;
 }
-#nav { width: 10000px; background: #fff; height: 60px; margin-right:-20px; float: right; border-radius: 5px; box-shadow: 1px 1px 5px #ddd;}
-#nav ul{margin: 0; padding:0; list-style:none; width: 100%; float: right;}
-#nav ul li{float: right; font: 16px arial;}
-#nav ul li a{ color: #888; text-decoration:none; padding-top: 20px; padding-left:30px; padding-right:30px; padding-bottom: 20px; display: block;}
-#nav ul li:hover{ background-color: #eee; transition: 0.25s;}
+#nav 
+{ 
+	width: 10000px; 
+	background: #fff; 
+	height: 60px; 
+	margin-right:-20px; 
+	margin-top:-91px; 
+	float: right; 
+	border-radius: 5px; 
+	box-shadow: 1px 1px 5px #ddd;
+}
+#nav ul
+{
+	margin: 0; 
+	padding:0; 
+	list-style:none; 
+	width: 100%; 
+	float: right;
+}
+#nav ul li
+{
+	float: right; 
+	font: 16px arial;
+}
+#nav ul li a
+{ 
+	margin: auto; 
+	color: #888;
+	text-decoration:none; 
+	padding-top: 20px; 
+	padding-left:45px; 
+	padding-right:45px; 
+	padding-bottom: 20px;
+	display: block;
+}
+#nav ul li:hover
+{
+	background-color: #eee; 
+	transition: 0.25s;
+}
 #nav ul li#name
-{position:relative;right:250px; height:60px; }
+{
+	position:relative;
+	right:550px; 
+	height:60px; 
+}
 #nav ul li#name a#name
-{font-family: FontAwesome; font-size: 23px; position:relative;
-bottom: 5px; }
+{ 
+	font-size: 23px; 
+	position:relative;
+	bottom: 5px;
+}
+#title h1
+{ 
+	position: relative; 
+	color: #eee; 
+	top: 150px; 
+	font-size: 100pt; 
+	font-family: sans-serif;
+}
