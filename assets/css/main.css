@@ -1,4 +1,9 @@
 body {
 	background-color: #00FF7F;
 }
-#nav { width: 960px; background: #fff;}
+#nav { width: 10000px; background: #fff; margin: -10px; float: right; border-radius: 5px;}
+#nav ul{margin: 0; padding:0; list-style:none; width: 100%; float: right;}
+#nav ul li{float: right; font: 16px arial;}
+#nav ul li a{ color: #888; text-decoration:none; padding: 20px; display: block;}
+#nav ul li:hover{ background-color: #eee; transition: 0.25s;}
+
